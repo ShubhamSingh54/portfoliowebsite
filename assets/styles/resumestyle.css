@@ -1,0 +1,418 @@
+#body-header{
+    height : 613px;
+    width:100%;
+   background-image: url(http://hdqwalls.com/wallpapers/macbook-pro-apple-laptop-headphones.jpg);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   opacity: 0.96;    
+}
+.horizontal li {
+    display: inline-block;
+    margin: 30px 45px 5px 5px;
+    font-size: 45px;
+}
+.horizontal li a{
+    text-decoration: none;
+    /*text-align: center;*/
+    transition: color 3s;
+    color :rgb(236, 235, 231);
+
+    
+}
+    .horizontal li a:hover{
+        color:aqua;
+        border-bottom: 2px solid white;
+    }
+#Rbullet{
+    list-style: none;
+    text-align: center;
+    
+}
+#div1{
+    text-align: center;
+    font-size: 52px;
+font-weight: 300;
+margin:133px;
+color: white;
+letter-spacing: 1.2px;
+
+}
+
+
+  #Rbullet1 {  
+     list-style: none;
+     text-align: center;
+       
+
+ }   
+ .ul1 li{   
+display:inline-block;  
+margin:2px 20px; 
+font-size: 50px;
+color:white;  
+} 
+.div2{
+    margin:-110px 20px;
+} 
+.ul1 li a{
+    color:white;
+    border-radius: 50%;
+} 
+.ul1 li a :hover{
+    color:rgb(0, 128, 126);
+    transition: color 2s;
+    box-shadow: 0px 0px 6px 4px;
+} 
+
+/* aboout section*/
+#about{
+    height:auto;
+    width:auto;
+    background-color: rgb(221, 236, 236);
+    margin-bottom: 0%;
+}
+
+#mypic{
+    height:296px;
+    width:306px;
+    margin:auto;
+    margin-top: -100px;
+    position:relative;
+
+}
+#mypic img {
+    height:100%;
+    width:100%;
+    border-radius:50%;
+}
+#p1{
+    font-size: 20px;
+    text-align: center;
+     margin-left:300px; 
+    margin-top: 50px;
+    font-weight: 700;
+     margin-bottom: 100px; 
+     margin-right: 300px;
+}
+.bio{
+    height:auto;
+    width:auto;
+    margin-left:20%;
+    
+    
+}
+.bio h2{
+    
+    
+    
+    color: #23e22a;
+    font-size: 50px;
+    font-weight: 990;
+    
+
+    
+    
+}
+#written-bio{
+    font-size:15px;
+    font-weight: 990;
+    padding-bottom:65px;
+}
+#written-bio p{
+    font-size:30px ;
+    font-weight: 900;
+    color: #721b1b;
+    margin:0px;
+}
+
+
+/*Education*/
+#education{
+    height:100%;
+    width:100%;
+    background-color: white;
+    margin: 0px;
+    background-image: radial-gradient(rgb(226, 104, 104),white);
+    
+    
+}
+#edu-div1{
+    height:100%;
+    width:100%;
+    background-color: rgb(32, 141, 237);
+    margin-top: 0px;
+}
+.edu-div1 h1{
+    
+font-size: 50px;
+    color: #23e22a;
+    font-weight: 900;
+    margin-left: 200px;
+    margin-top: -17px;
+    padding-top: 67px;
+    
+}
+#img{
+    margin-left: 600px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+#edu-about{
+    font-size:20px ;
+    font-weight: 900;
+}
+
+/* skills     */
+#skills{
+    height:100%;
+    width: 100%;
+    /* background-color: dimgrey; */
+    background-image: radial-gradient(pink,cyan);
+    margin-top: -37px;
+}
+#skills h1{
+    /* margin: 50px 0px 0px 700px ; */
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500px;
+    color: #1a383a;
+    padding-top: 75px;
+}
+.skilldiv{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    /* background-color: dimgrey; */
+    
+    
+}
+#skill-progress{
+    height:66px;
+    width:256px;
+    border-radius: 20px;
+    display:flex;
+    display: inline-flex;
+    flex-direction: row;
+    background-color:rgb(229, 226, 216);
+    margin:50px 190px;
+    
+    
+}
+#boxcolor{
+
+     height:66px;
+    width:200px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px; 
+    background-color: #4a6567e3;
+}
+    
+
+#boxcolor span{
+    font-size: 45px ;
+margin-left: 70px;
+    color:rgb(219, 217, 201);
+
+}
+#skill-progress1{
+    height: 66px;
+    width:256px;
+    border-radius: 20px;
+    display:flex;
+    display: inline-flex;
+    flex-direction: row;
+    background-color:rgb(229, 226, 216);
+    margin:50px 190px;
+    
+    
+}
+#boxcolor1{
+
+     height:66px;
+    width:210px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px; 
+    background-color:#e22d43c7;
+    display: inline-flex;
+}
+#boxcolor1 span{
+    font-size:45px ;
+ margin-left: 70px; 
+/* text-align: center; */
+    color:rgb(229, 226, 216);
+
+}
+#skill-progress2{
+    height:66px;
+    width:256px;
+    border-radius: 20px;
+    display:flex;
+    display: inline-flex;
+    flex-direction: row;
+    background-color:rgb(229, 226, 216);
+    margin:50px 190px;
+    
+    
+}
+#boxcolor2{
+
+     height:66px;
+    width:140px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px; 
+    background-color:rgb(172 164 56 / 81%);
+    display: inline-flex;
+}
+#boxcolor2 span{
+    font-size:45px ;
+margin-left: 50px;
+    color:rgb(229, 226, 216);
+
+}
+#skill-progress3{
+    height:66px;
+    width:256px;
+    border-radius: 20px;
+    display:flex;
+    display: inline-flex;
+    flex-direction: row;
+    background-color:rgb(229, 226, 216);
+    margin:50px 190px;
+    
+    
+}
+#boxcolor3{
+
+     height:66px;
+    width:210px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px; 
+    background-color: #36388f;
+    display: inline-flex;
+}
+#boxcolor3 span{
+    font-size:45px ;
+margin-left: 50px;
+    color:rgb(229, 226, 216);
+
+}
+#skill-progress4{
+    height:66px;
+    width:256px;
+    border-radius: 20px;
+    display:flex;
+    display: inline-flex;
+    flex-direction: row;
+    background-color:rgb(229, 226, 216);
+    margin:50px 190px;
+    
+    
+}
+#boxcolor4{
+
+     height:66px;
+    width:200px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px; 
+    background-color:#df34b3e0;
+        display: inline-flex;}
+    
+#boxcolor4 span{
+    font-size:45px ;
+margin-left: 50px;
+    color:rgb(229, 226, 216);
+
+}
+
+
+#skill-progress5{
+    height:66px;
+    width:256px;
+    border-radius: 20px;
+    display:flex;
+    display: inline-flex;
+    flex-direction: row;
+    background-color:rgb(229, 226, 216);
+    margin:50px 190px;
+    
+    
+}
+#boxcolor5{
+
+     height:66px;
+    width:142px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px; 
+    background-color: #721b1b;
+    display: inline-flex;
+}
+#boxcolor5 span{
+    font-size:45px ;
+margin-left: 50px;
+    color:rgb(39, 38, 36);
+
+}
+#myresume{
+    
+        background-color: #f13232;
+        height: 80px;
+        width: 100%;
+        border-radius:30px;
+        margin: 40px 0px 20px 0px;
+        font-size:40px ;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    #myresume-text{
+        
+        margin: 10px;
+        
+        padding-top: 20px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+
+    }
+    #myresume-text a{
+        color: white;
+        
+        text-decoration: none;
+        
+
+    }
+    
+/*contact*/
+#contact{
+    
+    height: auto;
+    width:auto;
+    margin-top: -20px;
+    background-image: linear-gradient(rgb(141, 56, 141),rgb(209, 165, 165),blue);
+    margin-top: -80px;
+}
+
+#contact-info{
+    margin-top:100px;
+    height: 100vh;
+    width:100%;
+}
+#contact-info h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 60px;
+    
+}
+
+
+
+
+    
+ 
+     
+
+
